@@ -4,12 +4,16 @@
   padding: 2rem;
   text-align: center;
 } */
-.App{
-  text-align: center;
+.header-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  /* height: 6em; */
+  padding: 0.5em;
   will-change: filter;
   transition: filter 300ms;
 }
