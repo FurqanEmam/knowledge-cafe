@@ -10,7 +10,9 @@
   align-items: center;
 
 }
-
+.blogs{
+  display: flex;
+}
 .logo {
   /* height: 6em; */
   padding: 0.5em;

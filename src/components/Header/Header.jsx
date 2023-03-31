@@ -5,12 +5,12 @@ const Header = () => {
     return (
         <div>
             {/* navbar section  */}
-            <header class="header-section">
-                <nav class="nav-section">
-                    <div class="logo">
-                        <h2 class="logo-title">Knowledge Cafe</h2>
+            <header className="header-section">
+                <nav className="nav-section">
+                    <div className="logo">
+                        <h2 className="logo-title">Knowledge Cafe</h2>
                     </div>
-                    <div class="nav-menu">
+                    <div className="nav-menu">
                         <a href="">Home</a>
                         <a href="">About</a>
                         <a href="">Blogs</a>
