@@ -5,11 +5,11 @@ const Blog = (props) => {
     const {name, guid, read_time, published_date, cover, author, title} = props.blog;
     return (
         <div>
-            <div className="blog-container">
-                <img className='w-full cover-img mt-4' src={cover} alt="Cover" />
+            <div className="blog-container mr-6">
+                <img className='w-full cover-img mt-4 rounded-lg' src={cover} alt="Cover" />
                 <div className='flex items-center'>
                     <img className='author-img rounded m-4' src={author} alt="Author" />
-                    <div className="blog-details flex justify-between items-center">
+                    <div className="blog-details w-full flex justify-between items-center">
                         <div className="author">
                             <h3 className='text-xl bold'>{name}</h3>
                             <p>{published_date} (5days ago)</p>
