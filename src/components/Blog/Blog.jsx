@@ -6,12 +6,12 @@ const Blog = (props) => {
     return (
         <div>
             <div className="blog-container">
-                <img className='cover-img mt-4' src={cover} alt="Cover" />
+                <img className='w-full cover-img mt-4' src={cover} alt="Cover" />
                 <div className='flex items-center'>
                     <img className='author-img rounded m-4' src={author} alt="Author" />
                     <div className="blog-details flex justify-between items-center">
                         <div className="author">
-                            <h5>Author Name: {name}</h5>
+                            <h3 className='text-xl bold'>{name}</h3>
                             <p>{published_date} (5days ago)</p>
                         </div>
                         <div className="read-time flex">
