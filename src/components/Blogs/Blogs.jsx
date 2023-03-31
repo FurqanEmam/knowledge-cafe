@@ -15,7 +15,10 @@ const Blogs = () => {
         <div className='blogs-container'>
             <div>
                 {
-                    blogs.map(blog => <Blog></Blog>)
+                    blogs.map(blog => <Blog
+                    blog = {blog}
+                    key ={blog.guid}
+                    ></Blog>)
                 }
                 <h1>blogs post here</h1>
             </div>
